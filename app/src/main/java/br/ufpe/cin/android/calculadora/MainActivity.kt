@@ -101,6 +101,7 @@ class MainActivity : AppCompatActivity() {
                 if(!text_calc.text.isNullOrEmpty()){
                     var result = eval(text_calc.text.toString())
                     text_info.text = result.toString()
+                    text_calc.text.clear()
                 }
                 else{
                     Toast.makeText(applicationContext, "Digite alguma operação", Toast.LENGTH_SHORT).show()
@@ -110,6 +111,7 @@ class MainActivity : AppCompatActivity() {
             }
             catch (e : Exception){
                 Toast.makeText(applicationContext, e.message, Toast.LENGTH_SHORT).show()
+                text_info.text = e.message.toString()
             }
 
 

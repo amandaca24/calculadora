@@ -11,4 +11,5 @@
     <color name="calc_background_primary_grey">#212121</color>
     <color name="calc_background_light_grey">#484848</color>
     <color name="calc_text_light_grey">#fafafa</color>
+    <color name="p_light">#ffffff</color>
 </resources>

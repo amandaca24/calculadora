@@ -5,7 +5,8 @@
     tools:context=".MainActivity2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:theme="@style/Theme.Calculadora">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -23,8 +24,8 @@
             android:text="@string/resultado"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="@color/calc_text_light_grey"
             android:textSize="30sp"
+            android:textColor="@color/p_light"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -44,8 +45,8 @@
             android:inputType="numberDecimal"
             android:lines="2"
             android:maxLines="2"
-            android:textColor="@color/white"
-            android:textColorHint="@color/calc_text_light_grey"
+            android:textColor="@color/p_light"
+            android:textColorHint="@color/p_light"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
